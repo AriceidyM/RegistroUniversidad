@@ -27,7 +27,7 @@ namespace BLL
         {
             _contexto = new Contexto();
         }
-
+         
         public virtual bool Guardar(T entity)
         {
             bool paso = false;
